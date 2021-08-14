@@ -16,6 +16,8 @@ RUN apt install -y git-all
 # project dependencies
 RUN apt install -y libpcl-dev
 
+RUN apt-get install -y silversearcher-ag
+
 
 # cleanup package manager
 RUN apt-get remove --purge -y curl build-essential checkinstall cmake
