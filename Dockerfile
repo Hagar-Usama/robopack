@@ -13,7 +13,7 @@ RUN apt install -y git-all
 
 
 # project dependencies
-RUN apt install -y libpcl-dev
+#RUN apt install -y libpcl-dev
 RUN apt-get -y install nano
 RUN apt-get install -y silversearcher-ag
 
