@@ -6,9 +6,9 @@ name: Docker Build and Push
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ beta ]
   pull_request:
-    branches: [ master ]
+    branches: [ beta ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
